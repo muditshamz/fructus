@@ -31,7 +31,7 @@ struct fruitdetailedview: View {
                             .font(.headline)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         //Nutrition
-                        
+                        FruitNutrientsView(fruit: fruit)
                         //Subheading
                         Text("Learn More about \(fruit.title)")
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
